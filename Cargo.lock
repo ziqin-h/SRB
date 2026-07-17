@@ -930,7 +930,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "71ddb8ac7643d1dba1bb02110e804406dd459a838efcb14011ced10556711a8e"
 dependencies = [
  "bytemuck",
- "emath 0.33.0",
+ "emath 0.33.3",
  "serde",
 ]
 
@@ -945,14 +945,14 @@ dependencies = [
 
 [[package]]
 name = "eframe"
-version = "0.33.0"
+version = "0.33.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b829d302a09deb4acde242262a1840ba14fadd0371980ebf713060077a1987bc"
+checksum = "457481173e6db5ca9fa2be93a58df8f4c7be639587aeb4853b526c6cf87db4e6"
 dependencies = [
  "ahash",
  "bytemuck",
  "document-features",
- "egui 0.33.0",
+ "egui 0.33.3",
  "egui-winit",
  "egui_glow",
  "glow",
@@ -989,8 +989,8 @@ dependencies = [
  "accesskit 0.21.1",
  "ahash",
  "bitflags 2.10.0",
- "emath 0.33.0",
- "epaint 0.33.0",
+ "emath 0.33.3",
+ "epaint 0.33.3",
  "log",
  "nohash-hasher",
  "profiling",
@@ -1020,14 +1020,14 @@ dependencies = [
 
 [[package]]
 name = "egui-winit"
-version = "0.33.0"
+version = "0.33.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bb4ea8cb063c00d8f23ce11279c01eb63a195a72be0e21d429148246dab7983e"
+checksum = "ec6687e5bb551702f4ad10ac428bab12acf9d53047ebb1082d4a0ed8c6251a29"
 dependencies = [
  "accesskit_winit",
  "arboard",
  "bytemuck",
- "egui 0.33.0",
+ "egui 0.33.3",
  "log",
  "objc2 0.5.2",
  "objc2-foundation 0.2.2",
@@ -1088,7 +1088,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bdced1964ad8a02a116b1307f7b4f73dbe408c5f53dcdd488f527609f261da60"
 dependencies = [
  "ahash",
- "egui 0.33.0",
+ "egui 0.33.3",
  "ehttp",
  "enum-map",
  "image",
@@ -1114,12 +1114,12 @@ dependencies = [
 
 [[package]]
 name = "egui_glow"
-version = "0.33.0"
+version = "0.33.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "668c0d4f726cc33838f0915f6b8c00af0ca0910e975ab58cf34b3e39c614552c"
+checksum = "6420863ea1d90e750f75075231a260030ad8a9f30a7cef82cdc966492dc4c4eb"
 dependencies = [
  "bytemuck",
- "egui 0.33.0",
+ "egui 0.33.3",
  "glow",
  "log",
  "memoffset",
@@ -1231,8 +1231,8 @@ dependencies = [
  "ab_glyph",
  "ahash",
  "bytemuck",
- "ecolor 0.33.0",
- "emath 0.33.0",
+ "ecolor 0.33.3",
+ "emath 0.33.3",
  "log",
  "nohash-hasher",
  "parking_lot",
@@ -3545,7 +3545,7 @@ dependencies = [
  "const_format",
  "display_json",
  "eframe",
- "egui 0.33.0",
+ "egui 0.33.3",
  "egui_commonmark",
  "egui_extras 0.33.0",
  "glob",
